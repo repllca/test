@@ -11,4 +11,12 @@ README を読んで環境を作り、サーバーを起動する練習をして�
 ### 1. 仮想環境を作成（任意）
 ```bash
 python -m venv venv
-source venv/bin/activate   # Windowsは venv\Scripts\activate
+venv\Scripts\activate
+  # Linuxは source venv/bin/activate
+
+pip install -r requirements.txt
+
+
+### 2. プログラムを実行（任意）
+```bash
+python app.py
